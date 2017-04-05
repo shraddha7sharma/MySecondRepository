@@ -13,6 +13,8 @@
 		FB376A5A1E8BC30600C23EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB376A581E8BC30600C23EAC /* Main.storyboard */; };
 		FB376A5C1E8BC30600C23EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB376A5B1E8BC30600C23EAC /* Assets.xcassets */; };
 		FB376A5F1E8BC30600C23EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB376A5D1E8BC30600C23EAC /* LaunchScreen.storyboard */; };
+		FB376A681E8BC38A00C23EAC /* ShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB376A671E8BC38A00C23EAC /* ShowTableViewController.m */; };
+		FB376A6B1E8BC3CB00C23EAC /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB376A6A1E8BC3CB00C23EAC /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FB376A5B1E8BC30600C23EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB376A5E1E8BC30600C23EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB376A601E8BC30600C23EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB376A661E8BC38A00C23EAC /* ShowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTableViewController.h; sourceTree = "<group>"; };
+		FB376A671E8BC38A00C23EAC /* ShowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewController.m; sourceTree = "<group>"; };
+		FB376A691E8BC3CB00C23EAC /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		FB376A6A1E8BC3CB00C23EAC /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				FB376A531E8BC30600C23EAC /* AppDelegate.m */,
 				FB376A551E8BC30600C23EAC /* ViewController.h */,
 				FB376A561E8BC30600C23EAC /* ViewController.m */,
+				FB376A661E8BC38A00C23EAC /* ShowTableViewController.h */,
+				FB376A671E8BC38A00C23EAC /* ShowTableViewController.m */,
+				FB376A691E8BC3CB00C23EAC /* CustomTableViewCell.h */,
+				FB376A6A1E8BC3CB00C23EAC /* CustomTableViewCell.m */,
 				FB376A581E8BC30600C23EAC /* Main.storyboard */,
 				FB376A5B1E8BC30600C23EAC /* Assets.xcassets */,
 				FB376A5D1E8BC30600C23EAC /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB376A681E8BC38A00C23EAC /* ShowTableViewController.m in Sources */,
 				FB376A571E8BC30600C23EAC /* ViewController.m in Sources */,
 				FB376A541E8BC30600C23EAC /* AppDelegate.m in Sources */,
+				FB376A6B1E8BC3CB00C23EAC /* CustomTableViewCell.m in Sources */,
 				FB376A511E8BC30600C23EAC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
